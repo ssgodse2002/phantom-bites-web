@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvC1pGhW7_BRwnGuBguLE99tfA0faYflekCA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 66vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    height:450px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 0 50px white;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    word-spacing: 8px;
+    text-align-last: center;
+}
+
+main #box1 button{
+    margin: auto;
+}
+
+
+.nav-link {
+    color: #fff; /* White text for visibility */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+    padding: 8px 12px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255); /* Change color on hover */
+    background-color: rgb(79, 43, 83); /* Background color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Optional: Make navbar items more visible */
+.nav-item {
+    position: relative; /* Position relative for pseudo-element positioning */
+}
+
+.nav-item::after {
+    content: ""; /* Create a pseudo-element */
+    display: block;
+    height: 2px; /* Underline thickness */
+    width: 0; /* Start with 0 width */
+    background: rgb(71, 17, 78); /* Underline color */
+    transition: width 0.3s ease; /* Smooth transition for width */
+    position: absolute;
+    left: 50%; /* Center the underline */
+    bottom: -5px; /* Position below the nav link */
+    transform: translateX(-50%); /* Center the underline */
+}
+
+.nav-item:hover::after {
+    width: 100%; /* Expand the width on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand p {
+        font-size: 14px;
+    }
+
+    #box1 {
+        padding: 30px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        font-size: 12px;
+    }
+
+    .navbar-brand p {
+        font-size: 12px;
+    }
+
+    #box1 h3 {
+        font-size: 18px;
+    }
+
+    #box1 h6 {
+        font-size: 14px;
+    }
+}

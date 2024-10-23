@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Agent Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .order-card {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"
+    style="background-image: linear-gradient(rgb(60, 37, 3),rgb(236, 204, 158)); height: 83px; padding: 5px;box-shadow: 0 0 10px white;">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-5 text-center pt-3" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMXl3cX4aN7CsUPtVQMGEAMgm4GqVUPmEZQ&s"
+                alt="Logo" style="height: 50px;width: 100px;border-radius: 50%;">
+            <p class="m-0" style="color:darkblue;text-shadow: 2px 2px 10px darkblue; font-size: 15px;">Phantom
+                Kitchen</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5">
+                <li class="nav-item me-4 h6">
+                    <a href="#" class="nav-link">Profile</a>
+                </li>
+                <li class="nav-item me-4 h6">
+                    <a href="#" class="nav-link">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Delivery Agent Dashboard Container -->
+    <div class="container mt-5">
+        <h2 class="text-center">Delivery Agent Dashboard</h2>
+        <p class="text-center text-muted">Manage your deliveries effectively</p>
+        
+        <!-- Pending Orders Section -->
+        <div class="order-section">
+            <h3>Pending Orders</h3>
+            <div id="pending-orders" class="row">
+                <!-- Dynamically populated pending orders will go here -->
+                <div class="col-md-4 order-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Order #105</h5>
+                            <p class="card-text">Customer: John Doe</p>
+                            <p class="card-text">Items: Burger & Fries</p>
+                            <button class="btn btn-success" onclick="updateStatus(this, 'Out for Delivery')">Mark as Out for Delivery</button>
+                            <button class="btn btn-warning" onclick="updateStatus(this, 'Ready to Deliver')">Ready to Deliver</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 order-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Order #106</h5>
+                            <p class="card-text">Customer: Jane Smith</p>
+                            <p class="card-text">Items: Margherita Pizza</p>
+                            <button class="btn btn-success" onclick="updateStatus(this, 'Out for Delivery')">Mark as Out for Delivery</button>
+                            <button class="btn btn-warning" onclick="updateStatus(this, 'Ready to Deliver')">Ready to Deliver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current Deliveries Section -->
+        <div class="order-section mt-5">
+            <h3>Current Deliveries</h3>
+            <div id="current-deliveries" class="row">
+                <!-- Dynamically populated current deliveries will go here -->
+            </div>
+        </div>
+
+        <!-- Completed Deliveries Section -->
+        <div class="order-section mt-5">
+            <h3>Completed Deliveries</h3>
+            <div id="completed-deliveries" class="row">
+                <!-- Dynamically populated completed deliveries will go here -->
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-white py-1  mx-auto"
+        style="background-image:linear-gradient(rgb(60, 37, 3),rgb(236, 204, 158)); box-shadow: 0 0 30px white; margin-top:63px;">
+        <div class="container">
+            <div class="d-flex justify-content-center my-2">
+                <a href="#" class="text-white me-3">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-white me-3">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-white">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+            <p class="my-2">&copy; 2024 Phantom Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   

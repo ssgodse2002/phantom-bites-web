@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(to top right, pink, rgb(236, 205, 114));
+        }
+        h4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: darkred;
+            text-shadow: 0 0 10px white;
+           
+            
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-danger mt-4" style="display:inline-block;">Explore dishes:</h1>
+        <span class="btn btn-primary mb-1" style="margin-left: 800px;"><a href="./Customer_dashboard.html"
+                style="color: black; text-decoration: none; background-color: rgb(71,17,78,) !important;">Back to dashboard</a></span>
+        <div class="row my-4">
+            <h4>i. Indian</h4>
+            <div class="col-md-3 my-2 ">
+                <h4 class="text-center">
+                    <div class="card " style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Paratha</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347392/india-food-paratha/india-food-paratha-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A flaky, layered, golden-brown Indian bread</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                           <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Paratha">Order</button></a> 
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Aloo Gobi</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347459/india-food-aloo-gobi/india-food-aloo-gobi-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A vegetarian dry curry, consisting of veggies and Indian spices
+                            </div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Aloo Gobi">Order</button></a> 
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Butter chicken</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347444/india-food-butter-chicken/india-food-butter-chicken-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A dish of tender chicken in a mildly spiced tomato sauce</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Butter chicken">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Masala Dosa</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347401/india-food-masala-dosa/india-food-masala-dosa-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">The traditional southern Indian dish made from a batter of soaked
+                                rice </div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Masala Dosa">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Sambhar</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347374/india-food-sambar/india-food-sambar-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A tamarind-based broth, prepared with lentils and vegetables</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Sambhar">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Chana Masala</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347439/india-food-chana-masala/india-food-chana-masala-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">This North Indian specialty is a tangy chickpea curry</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Chana Masala">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Shahi Paneer</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347365/india-food-shahi-paneer/india-food-shahi-paneer-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A rich, hearty and nutritious cheese curry, prepared with paneer cheese</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Shahi Paneer">
+                                Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Vindaloo</div>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347353/india-food-vindaloo/india-food-vindaloo-1120x732.jpg"
+                                alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A flavorful curry dish typically made with marinated pork</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Vindaloo">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            
+           
+        <!-- chinese -->
+         <div class="row my-4"></div>
+        <h4>ii. Chinese</h4>
+        <div class="col-md-3 my-2 ">
+            <h4 class="text-center">
+                <div class="card " style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Pot Seasame Chicken</div>
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2020/03/Pressure-Cooker-Sesame-Chicken_EXPS_FT20_243975_F_0220_1-8.jpg?fit=700,700"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">a weeknight dinner, with flavorful sauce that coats this chicken</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Pot Seasame Chickn">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Boneless Spare Ribs</div>
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2024/07/EXPS_TOHD24_276846_LeticiaAlmeida_11.jpg?fit=700,700"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">Tender ribs are marinated & baked as perfect blend of savory and sweet
+                        </div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Boneless Spare Ribs">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Chicken Fried Rice</div>
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Super-Quick-Chicken-Fried-Rice_EXPS_FT22_117849_F_0315_1.jpg?fit=700,700"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">Flavorful dish made by stir-frying cooked rice with pieces of chicken</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Chicken Fried Rice">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Spicy Shrimp</div>
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2024/07/Salt-and-Pepper-Shrimp_EXPS_TOHcom24_276867_MD_P2_06_26_11b.jpg?fit=700,700"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">Crispy Chinese dish with shrimp lightly fried & tossed with pepper</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Spicy Shrimp">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Chowmein</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tallarin_Saltado_Peru.jpg/330px-Tallarin_Saltado_Peru.jpg"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">A stir-fried dish consisting of noodles, meat, onions and celery</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Chowmein">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Mapo Tofu</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Mapo_tofu_%28vegetarian_version%29.png"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">A vegetarian version of Mapo tofu with diced shitake mushrooms  used.</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="MapoTofu">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+
+
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Spring rolls</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Spring_rolls_in_restaurant_in_Siem_Reap.jpg/330px-Spring_rolls_in_restaurant_in_Siem_Reap.jpg"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">A rolled appetizer stuffed with veggies, chicken and spices</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Spring rolls">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <h4 class="text-center">
+                <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                    <div class="card-body">
+                        <div class="card-title">Vindaloo</div>
+                        <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347353/india-food-vindaloo/india-food-vindaloo-1120x732.jpg"
+                            alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                        <div class="card-text h6">A flavorful curry dish typically made with marinated pork</div>
+                    </div>
+                    <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                        <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Vindaloo">Order</button></a>
+                    </div>
+                </div>
+            </h4>
+        </div>
+        
+       
+       
+
+        <!-- Italian -->
+        <div class="row my-4">
+            <h4>iii. Italian </h4>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Lasagna</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141204-05-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A hearty pasta dish made with layers of noodles,cheeses,sauce</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Lasagna">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Brodetto</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141225-06-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">The Italian version of France's bouillabaisse, features a brothy mix</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Brodetto">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Gelato</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141454-08-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A warm evening classic in Italy include pistachios, toasted almonds</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Gelato">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Caponata</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141826-15-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">A sweet and sour mix of different vegetables dressed in a sauce</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Caponata">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Insalata Caprese</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211142416-17-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">Made simply by alternating slices of tomatoes and mozzarella cheese </div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Insalata Caprese">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+            
+            
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Timballo</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211143233-28-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">Pasta, meat, cheese, vegetables, tortellini, eggs, sausages, fishes mix</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Timballo">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Aagnolotti del plin</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211143158-26-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">Aagnolotti del plin comes from the Piedmont region of Italy</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Aagnolotti del plin">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+
+            <div class="col-md-3 my-2">
+                <h4 class="text-center">
+                    <div class="card" style="background-image: linear-gradient(to bottom left,lavender,rgb(230, 208, 162)); box-shadow: 0 0 20px rgb(209, 166, 212); ">
+                        <div class="card-body">
+                            <div class="card-title">Linguine allo scoglio</div>
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211142532-18-classic-italian-dishes.jpg?q=w_1110,c_fill/f_webp"
+                             alt="" style="height: 150px;width: 150px;border-radius: 50%;">
+                            <div class="card-text h6">This linguine dish showcases fresh catch from the sea</div>
+                        </div>
+                        <div class="card-footer border-0" style="background-color: rgb(226, 202, 219);">
+                            <a href="./Customer_dashboard.html"><button class="btn btn-primary" data-item="Linguine allo scoglio">Order</button></a>
+                        </div>
+                    </div>
+                </h4>
+            </div>
+     
+    </div>
+    <script>
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const orderButtons = document.querySelectorAll('.btn-primary');
+
+    // Retrieve current orders or initialize as an empty array
+    let orders = JSON.parse(localStorage.getItem('orders')) || [];
+
+    // Find the next available ID based on current orders
+    let nextId = orders.length > 0 ? orders[orders.length - 1].id + 1 : 5000;
+
+    orderButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            const item = event.target.getAttribute('data-item');
+            
+            // Add the selected item as an object with id and status
+            const newOrder = {
+                id: nextId,
+                itemName: item,
+                status: "Queued to get prepared"
+            };
+
+            orders.push(newOrder);
+            nextId++; // Increment the next available ID
+
+            // Save updated orders to localStorage
+            localStorage.setItem('orders', JSON.stringify(orders));
+
+            alert(item + " has been added to your order.");
+        });
+    });
+});
+
+    </script>
+
+</body>
+
+</html>
