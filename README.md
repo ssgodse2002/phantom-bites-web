@@ -1,16 +1,16 @@
-**Phantom Bites** 🍽️  
+# Phantom Bites 🍽️  
 
 **Phantom Bites** is a dynamic phantom kitchen management system designed using modern web technologies like **Bootstrap, JavaScript (ES6), and localStorage** to handle *kitchen orders, track their status, and manage delivery* efficiently. This system includes different user modules for **customers, admin, kitchen staff, and delivery agents**, each playing a critical role in the seamless functioning of the phantom kitchen.  
 
 
-**Key Features**:  
+## Key Features:  
 
 *Responsive UI* built using the latest Bootstrap framework.  
 Use of *JavaScript ES6* for real-time interactions and DOM manipulation.  
 *localStorage* to store and retrieve customer orders, simulate order tracking, and order preparation.<br>
 A clear and simple workflow that tracks orders from customer placement to delivery<br>
 .
-# Modules:<br>
+## Modules:<br>
 ##### 1. Customer Module:
 Order Placement: Customers can browse through various cuisines and place orders. Each order is dynamically generated with unique IDs and stored locally.
 Order Tracking: Customers can view their orders, which are automatically assigned default statuses like "Queued to get prepared."
@@ -28,7 +28,7 @@ Order Pickup: Delivery agents receive notifications when an order is ready for p
 Tracking: Allows agents to view customer locations and mark orders as "Out for Delivery" and "Delivered."
 Order Completion: Once delivered, the agent updates the order status to "Delivered," completing the order lifecycle.
 
-**Technologies Used**:
+## Technologies Used:
 #### HTML/CSS: For the structure and styling of the website.
 #### Bootstrap: For a responsive, mobile-friendly design.
 #### JavaScript (ES6): To handle client-side functionality, including order management and localStorage operations.
