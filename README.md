@@ -6,9 +6,7 @@
 **Key Features**:  
 
 *Responsive UI* built using the latest Bootstrap framework.  
-
 Use of *JavaScript ES6* for real-time interactions and DOM manipulation.  
-
 *localStorage* to store and retrieve customer orders, simulate order tracking, and order preparation.<br>
 A clear and simple workflow that tracks orders from customer placement to delivery<br>
 .
