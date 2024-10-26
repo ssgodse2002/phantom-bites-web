@@ -2,7 +2,7 @@
 
 **Phantom Bites** is a dynamic phantom kitchen management system designed using modern web technologies like **Bootstrap, JavaScript (ES6), and localStorage** to handle *kitchen orders, track their status, and manage delivery* efficiently. This system includes different user modules for **customers, admin, kitchen staff, and delivery agents**, each playing a critical role in the seamless functioning of the phantom kitchen. 
 
-<img src="images/logo.png" alt="Logo" width="200" height="100">
+<img src="https://github.com/ssgodse2002/phantom-bites-web/blob/main/proj_BS_Homepage.png?raw=true" alt="Logo" width="200" height="100">
 
 
 ## Key Features:  
